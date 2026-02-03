@@ -1,0 +1,15 @@
+body{
+    background: lightblue;
+}
+
+h1{
+    font-size: 36px;
+    font-family: 'Courier New';
+    border-style: outset;
+}
+
+h6{
+    font-family: 'Verdana';
+    font-size: 14px;
+    font-style: 'italic';
+}
