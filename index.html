@@ -6,8 +6,19 @@
     <body>
         <!--Beginning Text-->
         <center>
-            <h1>Stopwatch Site :D</h1>
-            <h6> You can make a countdown in this site!!1 </h6>
+            <h5 id="myh5">Stopwatch Site :D</h5>
+            <h6 id="myh6"> A site to use as a personal online stopwatch!!1 </h6>
         </center>
+        <!--Display-->
+        <div id="container">
+            <div id="display">
+                00:00:00:00
+            </div>
+            <div id="controls">
+                <button id="StartBtn" onclick="start()"> Start </button>
+                <button id="StopBtn" onclick="stop()"> Stop </button>
+                <button id="ResetBtn" onclick="start()"> Reset </button>
+            </div>
+        </div>
     </body>
 </html>
